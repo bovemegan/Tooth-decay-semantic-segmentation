@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import sys
 CLASSES_DEFINICATION_PATH = 'data\\label\\classes.json'
-
+#below is using json file to interchange data
 def pairwise(it):
     it = iter(it)
     while True:

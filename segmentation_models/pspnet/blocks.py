@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 from keras.layers import MaxPool2D
 from keras.layers import AveragePooling2D
 from keras.layers import Concatenate
