@@ -1,6 +1,8 @@
 from keras import backend as K
 import tensorflow as tf
-
+#adding these imports---by Megan
+import numpy as np
+from keras_preprocessing import image
 
 def dice_coef(y_true, y_pred, smooth=1):
     intersection = K.sum(K.abs(y_true * y_pred), axis=-1)
